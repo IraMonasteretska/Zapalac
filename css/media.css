@@ -61,13 +61,13 @@
   }
   .form__left{
     padding: 34px;
-    width: 450px;
+    max-width: 500px;
   }
   .form__right-block{
     padding: 34px;
   }
   .form__right{
-    max-width: 450px;
+    max-width: 500px;
   }
   .form__left form{
     width: 100%;
@@ -1000,5 +1000,8 @@
     left: 0;
     margin: 0 auto;
     max-width: 199.5px;
+  }
+  .form__right{
+    margin-top: 20px;
   }
 }

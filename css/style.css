@@ -294,8 +294,6 @@ body {
 }
 
 .form {
-  display: flex;
-  justify-content: space-between;
   padding-top: 150px;
   padding-left: 84px;
   padding-right: 84px;
