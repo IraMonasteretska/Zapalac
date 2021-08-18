@@ -954,49 +954,6 @@ body {
   border-bottom: 1px solid #d3ab75 !important;
 }
 
-/* nav */
-.ul li {
-  margin: 20px 0;
-}
-.link1 {
-  color: green;
-}
-.link2 {
-  color: green;
-}
-.link3 {
-  color: green;
-}
-.link4 {
-  color: green;
-}
-.link5 {
-}
-.link6 {
-  color: green;
-}
-.link7 {
-  color: green;
-}
-.link8 {
-}
-.link9 {
-}
-.link10 {
-  color: green;
-}
-.link11 {
-  color: green;
-}
-.link12 {
-  color: green;
-}
-.link13 {
-  color: green;
-}
-.link14 {
-  color: green;
-}
 /* contact */
 .header__tel-link{
   text-decoration: underline !important; 
