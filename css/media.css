@@ -329,8 +329,20 @@
   .footer__list:last-child{
     padding-right: 0;
   }
+  .location__block{
+    left: 100px;
+    padding: 31px 37px;
+  }
 }
 @media (max-width: 990px) {
+  .location__block{
+    left: 100px;
+    padding: 21px 27px;
+  }
+  .accordion{
+    font-size: 20px;
+  }
+
   .contact{
     margin: 0 auto !important;
   }
@@ -441,6 +453,9 @@
     right: 105px;
     top: 43px;
   }
+  .location__title{
+    font-size: 22px;
+  }
   .menu__open{
     display: flex;
   }
@@ -543,6 +558,19 @@
   }
 }
 @media (max-width: 878px) {
+  .location__title{
+    font-size: 20px;
+  }
+  .location__block{
+    max-width: 300px;
+    height: 300px;
+    left: 0px;
+    top: 150px;
+    padding: 11px 17px;
+  }
+  .accordion{
+    font-size: 18px;
+  }
   .accordion-button{
     font-size: 16px;
   }
@@ -602,6 +630,19 @@
   }
 }
 @media (max-width: 678px) {
+  .location__title{
+    font-size: 18px;
+  }
+  .location__block{
+    max-width: 200px;
+    height: 200px;
+    left: 0px;
+    top: 150px;
+    padding: 11px 17px;
+  }
+  .accordion{
+    font-size: 16px;
+  }
   .contact__bot{
     padding: 41px 51px;
   }
@@ -639,8 +680,37 @@
   .contact__title{
     font-size: 26px;
   }
+  .left{
+    padding-left: 50px !important; 
+  }
+  .accordion{
+    padding: 20px 0;
+  }
+  .location__block{
+    max-width: 100%;
+    margin-top: -80px;
+    display: block;
+    position: relative;
+    height: 100%;
+  }
 }
 @media (max-width: 578px) {
+  
+  .location__title{
+    font-size: 16px;
+  }
+  .location__images-z{
+    left: 0;
+  }
+  .location_form{
+    padding: 0 !important;
+  }
+  .left{
+    padding-left: 0px !important; 
+  }
+  .accordion{
+    font-size: 14px;
+  }
   .contact_form{
     height: 570px !important;
   }
@@ -671,6 +741,15 @@
   }
   .client__text{
     font-size: 14px;
+  }
+  .location__adres{
+    padding-top: 10px;
+  }
+  .location__header{
+    padding-bottom: 5px;
+  }
+  .location__tel{
+    padding-top: 10px;
   }
   .client__item{
     padding-left: 0;
@@ -727,6 +806,9 @@
   }
   .services{
     padding-top: 20px;
+  }
+  .location__adres-text{
+    font-size: 16px;
   }
   .header__logo{
     max-width: 120px;
@@ -786,8 +868,26 @@
   .accordion-body{
     padding: 0;
   }
+  .location__adres-title{
+    font-size: 15px;
+  }
 }
 @media (max-width: 478px) {
+  .location__tel{
+    padding-top: 5px;
+  }
+  .location__adres-text{
+    font-size: 14px;
+  }
+  .location__adres-title{
+    font-size: 14px;
+  }
+  .location__title{
+    font-size: 14px;
+  }
+  .main__title{
+    font-size: 20px;
+  }
   .contact_form{
     height: 510px !important;
   }
