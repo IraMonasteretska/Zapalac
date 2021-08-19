@@ -11,7 +11,7 @@
     max-width: 256px;
   }
   .header__list{
-    max-width: 582px;
+    max-width: 692px;
   }
   .services{
     padding-left: 54px;
@@ -41,7 +41,6 @@
   }
   .form{
     margin: 0 auto;
-    padding-top: 50px;
     padding-left: 54px;
     padding-right: 54px;
   }
@@ -89,7 +88,7 @@
     max-width: 246px;
   }
   .header__list{
-    max-width: 582px;
+    max-width: 642px;
   }
   .services__info-text{
     padding-bottom: 35px;
@@ -174,6 +173,9 @@
   }
 }
 @media (max-width: 1300px) {
+  .services__info{
+    margin-left: 0;
+  }
   .header__block{
     max-width: calc(100%  - 206px);
   }
@@ -234,6 +236,22 @@
   }
 }
 @media (max-width: 1200px) {
+  .form__button {
+    margin-top: 20px;
+  }
+  .client__text{
+    max-width: 100%;
+  }
+  .main__profile-img {
+    text-align: right;
+    max-width: 603px;
+    width: 100%;
+  }
+  .form{
+    padding-top: 50px;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
   .header__block{
     max-width: calc(100%  - 146px);
   }
@@ -320,6 +338,12 @@
   .header__link{
     font-size: 14px;
   }
+  .main__header{
+    padding-top: 10px;
+  }
+  .blog__button{
+    padding-bottom: 0px;
+  }
   .footer__logo{
     max-width: 160px;
   }
@@ -337,8 +361,8 @@
     top: 100px;
   }
   .contact__social-icon{
-    padding-left: 0;
-    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
   }
   .client__item::after {
     max-width: 168px;
@@ -348,13 +372,16 @@
   }
   .main__header{
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   .probate__text{
     padding-top: 0;
   }
 }
 @media (max-width: 1100px) {
+  .client__item::after{
+    top: 0;
+  }
   .left{
     padding-left: 80px !important;
   }
@@ -415,11 +442,11 @@
     font-size: 15px;
   }
   .main__header-article{
-    max-width: 330px;
+    max-width: 100%;
     width: 100%;
   }
   .article{
-    font-size: 18px;
+    font-size: 28px;
   }
   .form__center{
     max-width: 100%;
@@ -540,7 +567,7 @@
     margin-top: 20px;
   }
   .header__tel {
-    max-width: 200px;
+    max-width: 220px;
     width: 100%;
   }
   .footer__nav{
@@ -608,8 +635,76 @@
   .contact_form{
     padding: 31px;
   }
+  .modal__title{
+    padding-top: 26px;
+    padding-bottom: 10px;
+    font-size: 32px;
+    line-height: 150%;
+  }
+  .modal__subtitle{
+    font-size: 16px;
+    line-height: 150%;
+    padding-bottom: 42px;
+  }
+  .modal-content {
+    max-width: 465px;
+    width: 100%;
+    padding: 39px 39px 76px;
+    height: 609px;
+  }
+  .form__right-block{
+    padding: 24px;
+  }
+  .form__left{
+    padding: 24px;
+  }
+  .form__right{
+    padding-right: 5px !important;
+  }
+  .article__img {
+    max-width: 1281px;
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+  }
+  #map{
+    height: 596px;
+  }
 }
 @media (max-width: 878px) {
+  #map{
+    height: 496px;
+  }
+  .form__link{
+    font-size: 16px;
+  }
+  .modal__title{
+    padding-top: 26px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    line-height: 150%;
+  }
+  .modal__subtitle{
+    font-size: 14px;
+    line-height: 150%;
+    padding-bottom: 22px;
+  }
+  .modal-content {
+    max-width: 465px;
+    width: 100%;
+    padding: 39px 39px 76px;
+    height: 440px;
+  }
+  .modal_from:last-child {
+    margin-bottom: 5px !important;
+  }
+  .modal_from {
+    max-width: 100% !important;
+    margin-bottom: 15px !important;
+  }
+  .modal__button{
+    height: 40px;
+  }
   .main__tel-text{
     font-size: 18px;
   }
@@ -651,9 +746,6 @@
   }
   .blog__btn{
     font-size: 14px;
-  }
-  .article{
-    font-size: 18px !important;
   }
   .main__tel{
     margin-top: 0;
@@ -698,16 +790,50 @@
     height: 25px;
   }
   .blog__button{
-    padding-bottom: 30px;
+    padding-bottom: 0px;
   }
   .article__text{
     font-size: 15px;
   }
 }
 @media (max-width: 678px) {
+  #map{
+    height: 396px;
+  }
+  .form__link{
+    font-size: 14px;
+  }
+  .form__data{
+    text-align: left;
+  }
+  .modal__title{
+    padding-top: 22px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    line-height: 150%;
+  }
+  .modal__subtitle{
+    font-size: 14px;
+    line-height: 150%;
+    padding-bottom: 22px;
+  }
+  .modal-content {
+    padding: 29px 29px 66px;
+    height: 380px;
+  }
+  .modal_from:last-child {
+    margin-bottom: 0px !important;
+  }
+  .modal_from {
+    max-width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+  .modal__button{
+    height: 40px;
+  }
   .form__center {
     padding: 20px;
-    height: 490px;
+    height: 620px;
   }
   .article__text{
     font-size: 14px;
@@ -741,7 +867,7 @@
     padding: 41px 51px;
   }
   .article{
-    font-size: 16px !important;
+    font-size: 20px !important;
   }
   .header__logo{
     max-width: 160px;
@@ -758,8 +884,11 @@
   .main__title{
     font-size: 28px;
   }
+  .main__info p{
+    font-size: 14px;
+  }
   .main__header{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   .contact__block{
     height: 100%;
@@ -788,7 +917,8 @@
     height: 50px;
   }
   .services__button{
-    height: 50px;
+    height: 55px;
+    border-radius: 10px;
   }
   .form__button{
     max-width: 100%;
@@ -803,20 +933,19 @@
     width: 15px;
     height: 15px;
   }
-  .blog__button{
-    padding-bottom: 20px;
-  }
   .group{
     font-size: 18px;
   }
 }
 @media (max-width: 578px) {
+  .article{
+    font-size: 16px !important;
+  }
+  #map{
+    height: 296px;
+  }
   .form__title{
     font-size: 20px;
-  }
-  .accordion::after{
-    width: 10px;
-    height: 10px;
   }
   .accordion_main{
     padding: 44px 14px !important;
@@ -841,9 +970,6 @@
     line-height: 21px;
   }
   .form__button{
-    height: 40px;
-  }
-  .services__button{
     height: 40px;
   }
   .from__input{
@@ -908,9 +1034,6 @@
     padding-left: 0;
     margin-top: 30px;
     margin-bottom: 20px;
-  }
-  .blog__button{
-    padding-bottom: 10px;
   }
   .article{
     font-size: 14px;
@@ -1022,6 +1145,9 @@
   }
 }
 @media (max-width: 478px) {
+  #map{
+    height: 196px;
+  }
   .main__tel-text{
     font-size: 15px;
   }
@@ -1046,9 +1172,6 @@
   }
   .from__input{
     margin-bottom: 10px;
-  }
-  .accordion{
-    font-size: 12px;
   }
   .main__btn{
     font-size: 12px;
