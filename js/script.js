@@ -17,6 +17,14 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function() {
+  $('.location__header').click(function() {
+      $('.location__title').toggleClass('title_active');
+      $('.location__title').toggleClass('title_close');
+  });
+});
+
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
