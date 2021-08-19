@@ -775,7 +775,7 @@ body {
   max-width: 100%;
 }
 .form__center form textarea {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 .form_header-center {
   margin-bottom: 21px;

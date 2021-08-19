@@ -135,9 +135,6 @@
   .header__block{
     max-width: calc(100%  - 276px);
   }
-  .probate_form{
-    height: 520px;
-  }
   .form__title{
     font-size: 26px;
   }
@@ -801,7 +798,7 @@
     display: none;
   }
   .main_border{
-    padding: 24px;
+    padding: 34px;
   }
   .probate__text{
     padding-top: 20px;
@@ -1187,8 +1184,14 @@
   .services__button{
     height: 40px;
   }
+  .left{
+    padding-left: 20px !important;
+  }
 }
 @media (max-width: 478px) {
+  .left{
+    padding-left: 10px !important;
+  }
   .main__header{
     padding-bottom: 0;
   }
