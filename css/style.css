@@ -95,7 +95,7 @@ body {
 }
 .header__tel {
   text-align: right;
-  max-width: 212px;
+  max-width: 232px;
   width: 100%;
 }
 .header__link {
@@ -113,12 +113,12 @@ body {
   margin-left: 8px;
 }
 .header__tel-link {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 24px;
-  line-height: 28px;
-  color: #d3ab75;
-  transition: 0.3s;
+  font-size: 28px;
+  line-height: 33px;
+  color: #D3AB75;
 }
 .header__tel-link:hover {
   color: #c99856;
@@ -676,7 +676,7 @@ body {
 
 .main_border {
   border: 6px solid #d3ab75;
-  padding: 44px 93px;
+  padding: 44px 84px;
 }
 .main__home {
   display: flex;
@@ -695,6 +695,10 @@ body {
 }
 .main__home-text span {
   opacity: 0.7;
+}
+.probate_service{
+  margin-top: 21px;
+  width: 100%;
 }
 .main__header {
   padding-top: 35px;
@@ -985,9 +989,6 @@ body {
   height: 336px;
   padding-bottom: 20px;
   padding-top: 10px;
-}
-.probate_form {
-  height: 600px;
 }
 
 /* Other */
@@ -1285,8 +1286,8 @@ body {
 .none{
   display: none;
 }
-.block{
-  
+.services__text{
+  text-align: justify;
 }
 .location__title {
   font-family: Rubik;

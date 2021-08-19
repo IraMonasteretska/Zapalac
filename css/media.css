@@ -7,6 +7,10 @@
   }
 }
 @media (max-width: 1600px) {
+  .footer{
+    padding-left: 54px;
+    padding-right: 54px;
+  }
   .header__logo{
     max-width: 256px;
   }
@@ -49,6 +53,9 @@
   }
   .swiper-container-horizontal > .swiper-pagination-bullets {
     right: 54px !important;
+  }
+  .main_border{
+    padding: 44px 34px;
   }
 }
 @media (max-width: 1500px) {
@@ -108,8 +115,23 @@
   .form__title{
     font-size: 30px;
   }
+  .location__block{
+    left: 120px;
+    top: 320px;
+  }
+  #map{
+    max-width: 100%;
+  }
+  .location_form{
+    padding-left: 0 !important;
+  }
 }
 @media (max-width: 1400px) {
+  .images img{
+    max-width: 100%;
+    padding-right: 0;
+    max-height: 100%;
+  }
   .header__block{
     max-width: calc(100%  - 276px);
   }
@@ -236,6 +258,19 @@
   }
 }
 @media (max-width: 1200px) {
+  .location_form{
+    padding: 0 !important;
+  }
+  .location__inner{
+    padding-bottom: 50px;
+  }
+  .footer{
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+  .footer__button{
+    height: 55px;
+  }
   .form__button {
     margin-top: 20px;
   }
@@ -407,22 +442,18 @@
     padding-right: 0;
   }
   .location__block{
-    left: 100px;
+    left: 120px;
     padding: 31px 37px;
+    height: 327px;
   }
 }
 @media (max-width: 990px) {
   .left{
     padding-left: 60px !important;
   }
-  .location__block{
-    left: 100px;
-    padding: 21px 27px;
-  }
   .accordion{
     font-size: 20px;
   }
-
   .contact{
     margin: 0 auto !important;
   }
@@ -654,12 +685,14 @@
   }
   .form__right-block{
     padding: 24px;
+    padding-right: 44px;
+    padding-top: 0;
   }
   .form__left{
     padding: 24px;
   }
   .form__right{
-    padding-right: 5px !important;
+    padding-right: 45px;
   }
   .article__img {
     max-width: 1281px;
@@ -672,8 +705,8 @@
   }
 }
 @media (max-width: 878px) {
-  #map{
-    height: 496px;
+  .footer__link svg {
+    margin-left: 8px;
   }
   .form__link{
     font-size: 16px;
@@ -727,8 +760,8 @@
   .location__block{
     max-width: 300px;
     height: 300px;
-    left: 0px;
-    top: 150px;
+    left: 100px;
+    top: 250px;
     padding: 11px 17px;
   }
   .accordion{
@@ -797,8 +830,11 @@
   }
 }
 @media (max-width: 678px) {
+  .footer__link svg {
+    margin-left: 5px;
+  }
   #map{
-    height: 396px;
+    height: 696px;
   }
   .form__link{
     font-size: 14px;
@@ -833,7 +869,7 @@
   }
   .form__center {
     padding: 20px;
-    height: 620px;
+    height: 520px;
   }
   .article__text{
     font-size: 14px;
@@ -859,6 +895,7 @@
     left: 0px;
     top: 150px;
     padding: 11px 17px;
+    margin-bottom: 120px;
   }
   .accordion{
     font-size: 16px;
@@ -924,7 +961,7 @@
     max-width: 100%;
   }
   .form__left{
-    height: 630px;
+    height: 600px;
   }
   .accordion_main{
     padding: 44px 24px !important;
@@ -938,11 +975,15 @@
   }
 }
 @media (max-width: 578px) {
+  .location_block-item{
+    text-align: left;
+    width: 70%;
+  }
   .article{
     font-size: 16px !important;
   }
   #map{
-    height: 296px;
+    height: 596px;
   }
   .form__title{
     font-size: 20px;
@@ -1049,7 +1090,7 @@
   }
   .form__center{
     padding: 20px;
-    height: 470px;
+    height: 500px;
   }
   .main__button-block{
     top: 34px;
@@ -1116,7 +1157,7 @@
     text-align: center;
   }
   .footer__list{
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .services__text{
     font-size: 14px;
@@ -1143,10 +1184,22 @@
   .location__adres-title{
     font-size: 15px;
   }
+  .services__button{
+    height: 40px;
+  }
 }
 @media (max-width: 478px) {
+  .main__header{
+    padding-bottom: 0;
+  }
+  .client__item{
+    margin-top: 15px;
+  }
+  .from__input{
+    padding: 10px 14px;
+  }
   #map{
-    height: 196px;
+    height: 496px;
   }
   .main__tel-text{
     font-size: 15px;
@@ -1156,7 +1209,7 @@
   }
   .form__center {
     padding: 20px;
-    height: 440px;
+    height: 460px;
   }
   .article__img {
     max-width: 1281px;
@@ -1231,6 +1284,12 @@
   .form__text{
     font-size: 14px;
   }
+  .accordion::after{
+    padding-left: 10px;
+  }
+  .probate__text{
+    padding-top: 25px;
+  }
   .from__btn{
     font-size: 14px;
   }
@@ -1297,5 +1356,11 @@
   }
   .form__right{
     margin-top: 20px;
+  }
+  .blog__button{
+    padding-top: 20px;
+  }
+  .main__header{
+    padding-top: 20px;
   }
 }
