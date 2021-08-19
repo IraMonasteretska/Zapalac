@@ -30,28 +30,30 @@
             <img src="img/logo.svg" alt="" class="header__logo-img">
           </a>
         </div>
-        <ul class="header__list">
-          <a href="#" class="header__link">Practice Areas
-            <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M12.5714 1.74995C12.5714 1.32026 12.2154 0.964233 11.7857 0.964233H0.785714C0.356027 0.964233 0 1.32026 0 1.74995C0 1.95865 0.0859375 2.15508 0.233259 2.3024L5.73326 7.8024C5.88058 7.94972 6.07701 8.03566 6.28571 8.03566C6.49442 8.03566 6.69085 7.94972 6.83817 7.8024L12.3382 2.3024C12.4855 2.15508 12.5714 1.95865 12.5714 1.74995Z"
-                fill="#C5C8DA" />
-            </svg>
-          </a>
-          <a href="Attorney-Profile.html" class="header__link">Attorney Profile</a>
-          <a href="#" class="header__link">Client Testimonials</a>
-          <a href="#" class="header__link">Blog</a>
-          <a href="#" class="header__link">Contact Me</a>
-        </ul>
-        <div class="header__tel">
-          <a href="tel:8323902949" class="header__tel-link">(832) 390-2949</a>
+        <div class="header__block">
+          <div class="header__list">
+            <a href="#" class="header__link">Practice Areas
+              <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.5714 1.74995C12.5714 1.32026 12.2154 0.964233 11.7857 0.964233H0.785714C0.356027 0.964233 0 1.32026 0 1.74995C0 1.95865 0.0859375 2.15508 0.233259 2.3024L5.73326 7.8024C5.88058 7.94972 6.07701 8.03566 6.28571 8.03566C6.49442 8.03566 6.69085 7.94972 6.83817 7.8024L12.3382 2.3024C12.4855 2.15508 12.5714 1.95865 12.5714 1.74995Z"
+                  fill="#C5C8DA" />
+              </svg>
+            </a>
+            <a href="Attorney-Profile.html" class="header__link">Attorney Profile</a>
+            <a href="#" class="header__link">Client Testimonials</a>
+            <a href="#" class="header__link">Blog</a>
+            <a href="#" class="header__link">Contact Me</a>
+          </div>
+          <div class="header__tel">
+            <a href="tel:8323902949" class="header__tel-link">(832) 390-2949</a>
+          </div>
         </div>
         <div class="header__menu-burder">
           <div class="header__burder-img"></div>
         </div>
       </div>
     </header>
-    <section class="main main_border">
+    <section class="main main_border accordion_main">
       <div class="row">
         <div class="col-md-12 col-xl-8">
           <div class="main__home">
@@ -93,110 +95,81 @@
             <div class="probate__item-but">
               <p class="probate__text">Our estate planning services offer:</p>
             </div>
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    Last Will and Testament
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p class="probate__text">A good Will is often the foundation of an estate plan and is a basic item
-                      needed to avoid dying
-                      “intestate” (without a Will), which would subject your property to the default inheritance laws of
-                      the State. With a valid Will you can clearly determine how your property will pass after death,
-                      who
-                      will act as your Executor to handle the assets of your estate and distribute them as you desire,
-                      and
-                      you can avoid the costliness that often comes with an intestate estate administration. <br>
-                      A Will does not avoid probate. It is indeed the central focus of the probate process, where the
-                      Will
-                      is validated and your named Executor is given the legal authority they need to carry out your
-                      wishes. As estate administration if often more expensive when there is an invalid Will or no Will
-                      whatsoever, it is important to have a Will drafted by an estate planning attorney knowledgeable
-                      about Texas law.</p>
-                    <div class="images">
-                      <img src="img/main/accordion/high-angle.jpg" alt="" class="accordion__img">
-                      <p class="probate__text">If you have property in other countries, it is advisable you have a Will
-                        or
-                        Will-equivalent that would be acceptable in the laws of that country. Zapalac Law Firm can help
-                        find and work with foreign legal counsel to determine what your estate plan needs to ensure it
-                        works seamlessly on a global level.</p>
-                    </div>
-                  </div>
+            <div class="accordion__inner">
+              <button class="accordion">Last Will and Testament</button>
+              <div class="panel">
+                <p class="probate__text">A good Will is often the foundation of an estate plan and is a basic item
+                  needed to avoid dying
+                  “intestate” (without a Will), which would subject your property to the default inheritance laws of
+                  the State. With a valid Will you can clearly determine how your property will pass after death,
+                  who
+                  will act as your Executor to handle the assets of your estate and distribute them as you desire,
+                  and
+                  you can avoid the costliness that often comes with an intestate estate administration. <br>
+                  A Will does not avoid probate. It is indeed the central focus of the probate process, where the
+                  Will
+                  is validated and your named Executor is given the legal authority they need to carry out your
+                  wishes. As estate administration if often more expensive when there is an invalid Will or no Will
+                  whatsoever, it is important to have a Will drafted by an estate planning attorney knowledgeable
+                  about Texas law.</p>
+                <div class="images">
+                  <img src="img/main/accordion/high-angle.jpg" alt="" class="accordion__img">
+                  <p class="probate__text">If you have property in other countries, it is advisable you have a Will
+                    or
+                    Will-equivalent that would be acceptable in the laws of that country. Zapalac Law Firm can help
+                    find and work with foreign legal counsel to determine what your estate plan needs to ensure it
+                    works seamlessly on a global level.</p>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Trusts: Revocable Management Trusts, Irrevocable Trusts, Special Needs Trusts, and More
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p class="probate__text">A good Will is often the foundation of an estate plan and is a basic item
-                      needed to avoid dying
-                      “intestate” (without a Will), which would subject your property to the default inheritance laws of
-                      the State. With a valid Will you can clearly determine how your property will pass after death,
-                      who
-                      will act as your Executor to handle the assets of your estate and distribute them as you desire,
-                      and
-                      you can avoid the costliness that often comes with an intestate estate administration. <br>
-                      A Will does not avoid probate. It is indeed the central focus of the probate process, where the
-                      Will
-                      is validated and your named Executor is given the legal authority they need to carry out your
-                      wishes. As estate administration if often more expensive when there is an invalid Will or no Will
-                      whatsoever, it is important to have a Will drafted by an estate planning attorney knowledgeable
-                      about Texas law.</p>
-                    <div class="images">
-                      <img src="img/main/accordion/high-angle.jpg" alt="" class="accordion__img">
-                      <p class="probate__text">If you have property in other countries, it is advisable you have a Will
-                        or
-                        Will-equivalent that would be acceptable in the laws of that country. Zapalac Law Firm can help
-                        find and work with foreign legal counsel to determine what your estate plan needs to ensure it
-                        works seamlessly on a global level.</p>
-                    </div>
-                  </div>
+              <button class="accordion">Trusts: Revocable Management Trusts, Irrevocable <br> Trusts, Special Needs Trusts,
+                and More</button>
+              <div class="panel">
+                <p class="probate__text">A good Will is often the foundation of an estate plan and is a basic item
+                  needed to avoid dying
+                  “intestate” (without a Will), which would subject your property to the default inheritance laws of
+                  the State. With a valid Will you can clearly determine how your property will pass after death,
+                  who
+                  will act as your Executor to handle the assets of your estate and distribute them as you desire,
+                  and
+                  you can avoid the costliness that often comes with an intestate estate administration. <br>
+                  A Will does not avoid probate. It is indeed the central focus of the probate process, where the
+                  Will
+                  is validated and your named Executor is given the legal authority they need to carry out your
+                  wishes. As estate administration if often more expensive when there is an invalid Will or no Will
+                  whatsoever, it is important to have a Will drafted by an estate planning attorney knowledgeable
+                  about Texas law.</p>
+                <div class="images">
+                  <img src="img/main/accordion/high-angle.jpg" alt="" class="accordion__img">
+                  <p class="probate__text">If you have property in other countries, it is advisable you have a Will
+                    or
+                    Will-equivalent that would be acceptable in the laws of that country. Zapalac Law Firm can help
+                    find and work with foreign legal counsel to determine what your estate plan needs to ensure it
+                    works seamlessly on a global level.</p>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Powers of Attorney and Disability Documents
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p class="probate__text">A good Will is often the foundation of an estate plan and is a basic item
-                      needed to avoid dying
-                      “intestate” (without a Will), which would subject your property to the default inheritance laws of
-                      the State. With a valid Will you can clearly determine how your property will pass after death,
-                      who
-                      will act as your Executor to handle the assets of your estate and distribute them as you desire,
-                      and
-                      you can avoid the costliness that often comes with an intestate estate administration. <br>
-                      A Will does not avoid probate. It is indeed the central focus of the probate process, where the
-                      Will
-                      is validated and your named Executor is given the legal authority they need to carry out your
-                      wishes. As estate administration if often more expensive when there is an invalid Will or no Will
-                      whatsoever, it is important to have a Will drafted by an estate planning attorney knowledgeable
-                      about Texas law.</p>
-                    <div class="images">
-                      <img src="img/main/accordion/high-angle.jpg" alt="" class="accordion__img">
-                      <p class="probate__text">If you have property in other countries, it is advisable you have a Will
-                        or
-                        Will-equivalent that would be acceptable in the laws of that country. Zapalac Law Firm can help
-                        find and work with foreign legal counsel to determine what your estate plan needs to ensure it
-                        works seamlessly on a global level.</p>
-                    </div>
-                  </div>
+              <button class="accordion">Powers of Attorney and Disability Documents</button>
+              <div class="panel">
+                <p class="probate__text">A good Will is often the foundation of an estate plan and is a basic item
+                  needed to avoid dying
+                  “intestate” (without a Will), which would subject your property to the default inheritance laws of
+                  the State. With a valid Will you can clearly determine how your property will pass after death,
+                  who
+                  will act as your Executor to handle the assets of your estate and distribute them as you desire,
+                  and
+                  you can avoid the costliness that often comes with an intestate estate administration. <br>
+                  A Will does not avoid probate. It is indeed the central focus of the probate process, where the
+                  Will
+                  is validated and your named Executor is given the legal authority they need to carry out your
+                  wishes. As estate administration if often more expensive when there is an invalid Will or no Will
+                  whatsoever, it is important to have a Will drafted by an estate planning attorney knowledgeable
+                  about Texas law.</p>
+                <div class="images">
+                  <img src="img/main/accordion/high-angle.jpg" alt="" class="accordion__img">
+                  <p class="probate__text">If you have property in other countries, it is advisable you have a Will
+                    or
+                    Will-equivalent that would be acceptable in the laws of that country. Zapalac Law Firm can help
+                    find and work with foreign legal counsel to determine what your estate plan needs to ensure it
+                    works seamlessly on a global level.</p>
                 </div>
               </div>
             </div>

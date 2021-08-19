@@ -17,16 +17,23 @@ body {
 .header__logo-img {
   width: 100%;
 }
+.header__block{
+  max-width: calc(100%  - 346px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .header__list {
   max-width: 652px;
-  width: calc(100% - 276px);
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .header__tel {
   text-align: right;
-  max-width: 173px;
-  width: calc(100% - 652px);
+  max-width: 202px;
+  width: 100%;
 }
 .header__link {
   font-style: normal;
@@ -40,7 +47,7 @@ body {
   color: #f7faff;
 }
 .header__link svg {
-  margin-left: 15px;
+  margin-left: 8px;
 }
 .header__tel-link {
   font-style: normal;
@@ -86,7 +93,17 @@ body {
   -webkit-align-items: center;
   align-items: center;
 }
-
+.accordion_main{
+  padding: 44px 84px !important;
+}
+.from__input::placeholder{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
 .swiper-slide img {
   display: block;
   width: 100%;
@@ -234,6 +251,7 @@ body {
   width: 100%;
 }
 .services__info {
+  margin: 0 auto;
   max-width: 500px;
   width: 100%;
 }
@@ -326,6 +344,14 @@ body {
   text-align: center;
   color: #ffffff;
 }
+.form_hed{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
 .from__input {
   font-family: Rubik;
   font-style: normal;
@@ -351,7 +377,7 @@ body {
   resize: none;
 }
 .form__button {
-  margin-top: 20px;
+  margin-top: 10px;
   max-width: 227.84px;
   width: 100%;
   height: 65px;
@@ -380,6 +406,7 @@ body {
 .form__right {
   padding-top: 55px;
   padding-right: 27px;
+  padding-bottom: 23px;
   max-width: 663px;
   width: 100%;
   height: 685px;
@@ -621,6 +648,7 @@ body {
   width: 100%;
 }
 .main__info p {
+  text-align: justify;
   font-family: Rubik;
   font-style: normal;
   font-weight: normal;
@@ -647,7 +675,8 @@ body {
   background: #d3ab75;
 }
 .form__center {
-  margin: 31px auto;
+  margin-top: 31px;
+  margin-left: auto;
   padding: 35px;
   max-width: 399px;
   width: 100%;
@@ -674,9 +703,10 @@ body {
 }
 .main__tel {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   margin-top: -60px;
+  margin-right: 20px;
 }
 .main__tel-text {
   padding-right: 14px;
@@ -722,21 +752,30 @@ body {
   background: #d3ab75;
 }
 .blog__title {
+  height: 64px;
   font-family: Rubik;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 160%;
   color: #333333;
-  padding-bottom: 17px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.article_btn{
+  color: #D3AB75;
 }
 .blog__text {
+  text-align: justify;
   font-family: Rubik;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 160%;
   color: #333333;
+  padding-top: 17px;
 }
 .blog__inner {
   margin-bottom: 70px;
@@ -747,6 +786,7 @@ body {
 }
 .blog__button {
   text-align: right;
+  padding-bottom: 45px;
 }
 .blog__btn {
   font-family: Rubik;
@@ -764,6 +804,7 @@ body {
   padding-bottom: 30px;
 }
 .article__text {
+  text-align: justify;
   font-family: Rubik;
   font-style: normal;
   font-weight: normal;
@@ -782,11 +823,13 @@ body {
 .article__img {
   max-width: 1281px;
   width: 100%;
+  object-fit: cover;
+  height: 100%;
 }
 .main__article {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 .main__header-article {
   max-width: 930px;
@@ -804,11 +847,15 @@ body {
   position: absolute;
   display: block;
   background: url("../img/main/quote.png") no-repeat center;
+  background-size: cover;
   max-width: 268px;
   width: 100%;
   height: 268px;
   top: 0;
   right: 0;
+}
+.active{
+  border-bottom: none !important;
 }
 .client__title {
   font-family: Rubik;
@@ -829,6 +876,7 @@ body {
   line-height: 160%;
   color: #333333;
   position: relative;
+  text-align: justify;
 }
 .client__text::before {
   left: -94px;
@@ -846,6 +894,7 @@ body {
 /* Probate */
 .probate__text {
   max-width: 820px;
+  text-align: justify;
   width: 100%;
   padding-top: 20px;
   font-family: Rubik;
@@ -858,6 +907,8 @@ body {
 .probate__img {
   max-width: 820px;
   width: 100%;
+  object-fit: cover;
+  height: 336px;
   padding-bottom: 20px;
   padding-top: 10px;
 }

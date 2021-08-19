@@ -9,6 +9,7 @@ var swiper = new Swiper(".mySwiper", {
 
 $(document).ready(function() {
   $('.header__burder-img').click(function() {
+      $('.header__block').toggleClass('menu__open');
       $('.header__list').toggleClass('menu__open');
       $('.header__tel').toggleClass('menu__open');
       $('.header__burder-img').toggleClass('menu__img');
