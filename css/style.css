@@ -777,6 +777,31 @@ body {
 .form_input-center {
   height: 53px;
 }
+.pagination{
+  justify-content: center;
+}
+.page-link{
+  color: #212640;
+  opacity: .3;
+}
+.page-link:hover{
+  color: #D3AB75 !important;
+  opacity: 1 !important;
+  background-color: transparent !important;
+}
+.page-link:focus{
+  box-shadow: none;
+  color: #D3AB75;
+}
+.page-actice{
+  color: #D3AB75;
+  background-color: none;
+  opacity: 1 !important;
+}
+.page-item .page-link{
+  border: none;
+  background-color: transparent !important;
+}
 .probate_form{
   height: 590px;
 }
