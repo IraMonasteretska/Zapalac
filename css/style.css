@@ -805,6 +805,36 @@ body {
 .probate_form{
   height: 585px;
 }
+.header__item:hover .link__ul{
+  display: block;
+}
+.header__item{
+  display: inline-block;
+  position: relative;
+}
+.footer__item:hover .link__ul{
+  display: block;
+}
+.footer__item{
+  margin-bottom: 30px;
+}
+.link__ul{
+  left: -30px;
+  background: #212640;
+  display: none;
+  position: absolute;
+  min-width: 250px;
+  z-index: 15;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-bottom: 30px !important;
+}
+.link__item{
+  padding-top: 30px;
+}
+.main__social svg:hover path{
+  fill: #FAFAFA;
+}
 .form__button-center {
   max-width: 100%;
 }

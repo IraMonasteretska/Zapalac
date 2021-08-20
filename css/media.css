@@ -262,7 +262,14 @@
 }
 @media (max-width: 1200px) {
   .form__left{
-    height: 620px;
+    height: 100% !important;
+    margin-bottom: 20px;
+  }
+  .form__right{
+    margin-top: 20px;
+  }
+  .form__center{
+    height: 100% !important;
   }
   .location_form{
     padding: 0 !important;
@@ -416,6 +423,16 @@
   }
 }
 @media (max-width: 1100px) {
+  .link__ul{
+    left: -20px;
+    min-width: 200px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .link__item{
+    padding-top: 20px;
+  }
   .client__item{
     margin-top: 50px;
   }
@@ -453,6 +470,24 @@
   }
 }
 @media (max-width: 990px) {
+  .link__ul{
+    left: -10px;
+    min-width: 150px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    left: 0;
+    right: 0;
+  }
+  .footer__item{
+    margin-bottom: 20px;
+  }
+  .header__item{
+    display: block;
+  }
+  .link__item{
+    padding-top: 10px;
+  }
   .blog__button{
     width: 100%;
     text-align: left;
@@ -559,6 +594,9 @@
     text-align: center;
     z-index: 13;
   }
+  .modal-dialog{
+    max-width: 450px;
+  }
   .header__burder-img{
     background: url('../img/menu.svg') no-repeat center;
     position: relative;
@@ -572,14 +610,11 @@
   }
   .menu__img{
     background: url('../img/close.svg') no-repeat center;
-    position: absolute;
     width: 40px;
     height: 40px;
     display: block;
     margin-left: 10px;
     z-index: 13;
-    right: 105px;
-    top: 43px;
   }
   .location__title{
     font-size: 22px;
@@ -693,8 +728,6 @@
     padding-bottom: 42px;
   }
   .modal-content {
-    max-width: 465px;
-    width: 100%;
     padding: 39px 39px 76px;
     height: 609px;
   }
@@ -720,6 +753,9 @@
   }
 }
 @media (max-width: 878px) {
+  .modal-dialog{
+    max-width: 400px;
+  }
   .client__item{
     margin-top: 30px;
   }
@@ -741,8 +777,6 @@
     padding-bottom: 22px;
   }
   .modal-content {
-    max-width: 465px;
-    width: 100%;
     padding: 39px 39px 76px;
     height: 440px;
   }
@@ -848,6 +882,12 @@
   }
 }
 @media (max-width: 678px) {
+  .modal-dialog{
+    max-width: 350px;
+  }
+  .modal-dialog-centered{
+    margin: 0 auto;
+  }
   .footer__link svg {
     margin-left: 5px;
   }
@@ -873,7 +913,7 @@
   }
   .modal-content {
     padding: 29px 29px 66px;
-    height: 380px;
+    height: 420px;
   }
   .modal_from:last-child {
     margin-bottom: 0px !important;
@@ -996,6 +1036,9 @@
   }
 }
 @media (max-width: 578px) {
+  .footer__item{
+    margin-bottom: 10px;
+  }
   .main_border{
     padding: 15px;
   }
@@ -1125,7 +1168,7 @@
     max-width: 120px;
   }
   .main__btn{
-    font-size: 14px;
+    font-size: 12px;
   }
   .services{
     padding-left: 24px;
@@ -1349,10 +1392,6 @@
   .menu__img{
     width: 25px;
     height: 25px;
-  }
-  .menu__img {
-    right: 45px;
-    top: 30px;
   }
   .form{
     padding-top: 20px;

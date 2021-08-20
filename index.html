@@ -29,19 +29,50 @@
           </a>
         </div>
         <div class="header__block">
-          <div class="header__list">
-            <a href="#" class="header__link">Practice Areas
-              <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M12.5714 1.74995C12.5714 1.32026 12.2154 0.964233 11.7857 0.964233H0.785714C0.356027 0.964233 0 1.32026 0 1.74995C0 1.95865 0.0859375 2.15508 0.233259 2.3024L5.73326 7.8024C5.88058 7.94972 6.07701 8.03566 6.28571 8.03566C6.49442 8.03566 6.69085 7.94972 6.83817 7.8024L12.3382 2.3024C12.4855 2.15508 12.5714 1.95865 12.5714 1.74995Z"
-                  fill="#C5C8DA" />
-              </svg>
-            </a>
-            <a href="Attorney-Profile.html" class="header__link">Attorney Profile</a>
-            <a href="#" class="header__link">Client Testimonials</a>
-            <a href="#" class="header__link">Blog</a>
-            <a href="#" class="header__link">Contact Me</a>
-          </div>
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link link_hover">
+                Practice Areas
+                <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12.5714 1.74995C12.5714 1.32026 12.2154 0.964233 11.7857 0.964233H0.785714C0.356027 0.964233 0 1.32026 0 1.74995C0 1.95865 0.0859375 2.15508 0.233259 2.3024L5.73326 7.8024C5.88058 7.94972 6.07701 8.03566 6.28571 8.03566C6.49442 8.03566 6.69085 7.94972 6.83817 7.8024L12.3382 2.3024C12.4855 2.15508 12.5714 1.95865 12.5714 1.74995Z"
+                    fill="#C5C8DA" />
+                </svg>
+              </a>
+              <ul class="link__ul">
+                <li class="link__item">
+                  <a href="#" class="header__link">Estate Planning</a>
+                </li>
+                <li class="link__item">
+                  <a href="#" class="header__link">Probate</a>
+                </li>
+                <li class="link__item">
+                  <a href="#" class="header__link">Asset Protection</a>
+                </li>
+                <li class="link__item">
+                  <a href="#" class="header__link">Business Planning</a>
+                </li>
+                <li class="link__item">
+                  <a href="#" class="header__link">Landlord/Tenant</a>
+                </li>
+                <li class="link__item">
+                  <a href="#" class="header__link">Other</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__item">
+              <a href="Attorney-Profile.html" class="header__link">Attorney Profile</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Client Testimonials</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Blog</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Contact Me</a>
+            </li>
+          </ul>
           <div class="header__tel">
             <a href="tel:8323902949" class="header__tel-link">(832) 390-2949</a>
           </div>
@@ -190,10 +221,8 @@
                 <input type="text" placeholder="Email Address" class="from__input">
                 <input type="text" placeholder="Phone number" class="from__input">
                 <textarea type="text" placeholder="Describe your question.." class="from__input"></textarea>
+                <input class=" services__button services__btn" type="submit" value="SEND">
               </form>
-              <div class="services__button">
-                <a href="#" class="services__btn">SEND</a>
-              </div>
             </div>
           </div>
           <div class="col-12 col-xl-6">
@@ -252,22 +281,38 @@
         <div class="col-lg-5 col-xl-5">
           <div class="footer__nav">
             <ul class="footer__list">
-              <a href="#" class="footer__link">Practice Areas
-                <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M12.5714 1.74995C12.5714 1.32026 12.2154 0.964233 11.7857 0.964233H0.785714C0.356027 0.964233 0 1.32026 0 1.74995C0 1.95865 0.0859375 2.15508 0.233259 2.3024L5.73326 7.8024C5.88058 7.94972 6.07701 8.03566 6.28571 8.03566C6.49442 8.03566 6.69085 7.94972 6.83817 7.8024L12.3382 2.3024C12.4855 2.15508 12.5714 1.95865 12.5714 1.74995Z"
-                    fill="#C5C8DA" />
-                </svg>
-              </a>
-              <a href="#" class="footer__link">Attorney Profile</a>
-              <a href="#" class="footer__link">Client Testimonials</a>
-              <a href="#" class="footer__link">Blog</a>
-              <a href="#" class="footer__link">Contact Me</a>
+              <li class="footer__item">
+                <a class="footer__link">Practice Areas
+                  <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12.5714 1.74995C12.5714 1.32026 12.2154 0.964233 11.7857 0.964233H0.785714C0.356027 0.964233 0 1.32026 0 1.74995C0 1.95865 0.0859375 2.15508 0.233259 2.3024L5.73326 7.8024C5.88058 7.94972 6.07701 8.03566 6.28571 8.03566C6.49442 8.03566 6.69085 7.94972 6.83817 7.8024L12.3382 2.3024C12.4855 2.15508 12.5714 1.95865 12.5714 1.74995Z"
+                      fill="#C5C8DA" />
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Attorney Profile</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Client Testimonials</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Blog</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact Me</a>
+              </li>
             </ul>
             <ul class="footer__list">
-              <a href="#" class="footer__link">FAQ</a>
-              <a href="#" class="footer__link">Location</a>
-              <a href="#" class="footer__link">Privacy Policy</a>
+              <li class="footer__item">
+                <a href="#" class="footer__link">FAQ</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Location</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy Policy</a>
+              </li>
             </ul>
           </div>
         </div>
