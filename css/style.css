@@ -747,6 +747,12 @@ body {
   height: 2px;
   background: #d3ab75;
 }
+.contact_btn{
+  margin: 0 auto;
+  max-width: 368px;
+  width: 100%;
+  z-index: 11;
+}
 .form__center {
   margin: 0 auto;
   margin-top: 31px;
@@ -769,7 +775,10 @@ body {
   resize: none;
 }
 .form_input-center {
-  height: 43px;
+  height: 53px;
+}
+.probate_form{
+  height: 590px;
 }
 .form__button-center {
   max-width: 100%;
