@@ -1425,3 +1425,16 @@ body {
   z-index: 2;
   position: relative;
 }
+.gm-style .gm-style-iw-d {
+  background-color: #212640;
+  overflow: hidden !important;
+}
+
+.gm-style .gm-style-iw-t::after {
+  background: linear-gradient(45deg, rgb(33 38 64) 50%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: -2px 2px 2px 0 rgb(55 81 121);
+}
+
+.gm-ui-hover-effect img {
+  background: #375179;
+}
