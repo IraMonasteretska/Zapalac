@@ -1425,16 +1425,30 @@ body {
   z-index: 2;
   position: relative;
 }
-.gm-style .gm-style-iw-d {
-  background-color: #212640;
-  overflow: hidden !important;
-}
+.gm-style .gm-style-iw-c {
+            border-radius: 0;
+            font-family: Rubik;
+            font-weight: bold;
+            font-size: 16px;
+            background-color: #212640;
+            padding: 12px !important;
+            color: #fff;
+            text-align: center;
+            min-width: 160px !important;
+            z-index: 2;
+            box-shadow: none;
+        }
 
-.gm-style .gm-style-iw-t::after {
-  background: linear-gradient(45deg, rgb(33 38 64) 50%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: -2px 2px 2px 0 rgb(55 81 121);
-}
+        .gm-style .gm-style-iw-d {
+            background-color: #212640;
+            overflow: hidden !important;
+        }
 
-.gm-ui-hover-effect img {
-  background: #375179;
-}
+        .gm-style .gm-style-iw-t::after {
+            background: linear-gradient(45deg, rgb(33 38 64) 50%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+            box-shadow: -2px 2px 2px 0 rgb(55 81 121);
+        }
+
+        .gm-ui-hover-effect img {
+            background: #375179;
+        }
